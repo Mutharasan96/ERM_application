@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm200-80v-240H200v240h200Zm80 0h280v-240H480v240ZM200-520h560v-240H200v240Z" fill="url(#Gradient2)"/>
+
+<defs>
+    <linearGradient id="Gradient1">
+      <stop class="stop1" offset="0%" />
+      <stop class="stop2" offset="50%" />
+      <stop class="stop3" offset="100%" />
+    </linearGradient>
+    <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="white" />
+      <stop offset="60%" stop-color="skyblue" />
+      <!--  stop-opacity="0" -->
+      <stop offset="100%" stop-color="blue" />
+    </linearGradient>
+  </defs>
+  <style>
+    #rect1 {
+      fill: url(#Gradient1);
+    }
+    .stop1 {
+      stop-color: red;
+    }
+    .stop2 {
+      stop-color: black;
+      stop-opacity: 0;
+    }
+    .stop3 {
+      stop-color: blue;
+    }
+  </style>
+
+</svg>
