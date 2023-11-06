@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { ReactElement } from "react";
 
-const Login = () => {
-  return (
-    <div>Login</div>
-  )
-}
+type LoginProps = { title?: string };
 
-export default Login
+const Login = ({ title }: LoginProps): ReactElement => {
+  return <div>{title}</div>;
+};
+
+export default Login;

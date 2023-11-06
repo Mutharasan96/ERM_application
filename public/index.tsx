@@ -1,4 +1,9 @@
-import ReactDom from 'react-dom'
-import { App } from '../src/App'
+import React from "react";
+import ReactDom from "react-dom/client";
+import { App } from "../src/App";
 
-ReactDom.render(<App/>,document.getElementById('root'))
+ReactDom.createRoot(document.getElementById("root") as HTMLElement).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
