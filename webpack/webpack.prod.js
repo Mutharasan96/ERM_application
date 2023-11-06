@@ -1,11 +1,11 @@
-const webpack = require('webpack')
+const webpack = import('webpack')
 
-module.exports={
-    mode:'production',
-    devtool:'source-map',
-    plugins:[
-        new webpack.DefinePlugin({
-            'process.env.name': JSON.stringify('Production')
-        })
-    ]
+module.exports = {
+  mode: 'production',
+  devtool: 'source-map',
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env.name': JSON.stringify('Production'),
+    }),
+  ],
 }
